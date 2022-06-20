@@ -1,0 +1,1 @@
+web: gunicorn Shajahan.wsgi --log-file -
