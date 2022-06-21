@@ -215,7 +215,7 @@ h6 {
 }
 
 a {
-    color: #09c;
+    color: white;
     text-decoration: none;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -3250,4 +3250,23 @@ blockquote {
 
 .fw-table table td:last-child {
     border-right: 0
+}
+
+.span-value{
+    font-size:15px;
+    font-weight: bold;
+    list-style: none;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, .1);
+    padding: 3px 15px;
+    border-radius: 25px
+}
+.email{
+    font-size: 15px; 
+    font-weight: bold; 
+    list-style: none;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, .1);
+    padding: 3px 15px;
+    border-radius: 25px
 }
